@@ -15,3 +15,11 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+
+
+// var numbers=[1,2,3,4,5]
+// var multiplyNumbers=[];
+// numbers.forEach(function(number){
+//   multiplyNumbers.push (number*5);
+//
+// });
