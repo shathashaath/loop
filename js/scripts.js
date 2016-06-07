@@ -3,11 +3,13 @@ $(document).ready(function() {
 
     var friendNames = ["name1", "name2", "name3", "name4", "name5"];
 
-    friendNames.forEach(function(friendName) {
-      var userInput = $("input#" + friendName).val();
-      $("#" + friendName + "result").text(userInput);
+    for (var i=0;i<friendNames.length;i++){
+      var userInput = $("input#" + friendNames[i]).val();
+      $("#" + friendNames[i] + "result").text(userInput);
       alert("Hello " + userInput);
-    });
+    }
+
+
 
 
     $("#results").show();
